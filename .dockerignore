@@ -1,0 +1,3 @@
+#checkVersion.sh
+*
+!docker-compose.yml

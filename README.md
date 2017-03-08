@@ -1,6 +1,6 @@
-# docker-woocommerce
+# 🐳 kennyl/docker-woocommerce
 
-Build File for Docker Woocommerce
+🐳Build File for Docker Woocommerce🐳
 Essentially a fork from https://hub.docker.com/r/agrothberg/docker-woocommerce/ and https://hub.docker.com/r/invision70/woocommerce/ with some modifications to it.
 
 This container has to be linked with a mysql container, and can be started like this:
@@ -32,3 +32,5 @@ By then, you'll be able to access your freshly installed wordpress on port 8080.
 curl http://$(docker-machine ip devbox):8080
 You may want to check out https://hub.docker.com/_/wordpress/ for further documentation.
 Have fun!
+
+License (LICENSE)[https://github.com/Kennyl/docker-woocommerce/blob/master/LICENSE]
