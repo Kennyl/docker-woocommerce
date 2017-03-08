@@ -1,6 +1,8 @@
 webserver:
    container_name: woocommerce
-   image: shipbeat/woocommerce
+   image: kennyl/docker-woocommerce
+   environment:
+    WORDPRESS_DB_PASSWORD: example   
    links:
     - dbserver:mysql
    ports:
